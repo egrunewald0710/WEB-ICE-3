@@ -1,0 +1,23 @@
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+}
+
+.button-container {
+    text-align: right;
+    margin-top: 10px; /* Adds vertical spacing between the <hr> and buttons */
+}
+
+.bn17 {
+    font-family: lato, sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    padding: 10px 40px 10px 40px;
+    margin-left: 10px; /* Adds horizontal spacing between buttons */
+    border: 3px solid #faf7f7;
+    border-radius: 20px;
+}
