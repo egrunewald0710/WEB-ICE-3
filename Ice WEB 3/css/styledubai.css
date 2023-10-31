@@ -1,0 +1,173 @@
+/**         NavBar             **/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: verdana;
+}
+
+body {
+    background-color: rgb(1, 91, 143);
+}
+
+#landing {
+    width: 100%;
+    height: 100vh;
+    background-image: url("images/dubai/pexels-the-lazy-artist-gallery-1089645.jpg");
+    background-size: cover;
+}
+
+nav {
+    width: 100%;
+    height: 50px;
+    background-color: #0005;
+    line-height: 50px;
+}
+
+nav h1 {
+    display: inline-block;
+}
+
+nav ul {
+    float: right;
+    margin-right: 30px;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    transition: 0.7s all;
+}
+
+nav ul li:hover {
+    background-color: #088;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 30px;
+}
+
+/**     landing text      **/
+
+.landing-text {
+    font-size: 24px;
+    padding: 10px;
+    color: #000000ce;
+    position: relative;
+    opacity: 0;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.left {
+    animation-name: slideFromLeft;
+    text-align: left;
+    padding-top: 10%;
+}
+
+
+
+@keyframes slideFromLeft {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideFromRight {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.card {
+    background-color: rgb(9, 240, 240);
+}
+
+.attraction {
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+}
+
+.attraction-image {
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    border: 1px solid #ccc;
+}
+
+.attraction-text {
+    padding: 20px;
+}
+
+.attraction h2 {
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.attraction p {
+    font-size: 16px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-content h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.footer-content p {
+    font-size: 16px;
+}
+
+.footer-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-content ul li {
+    margin-bottom: 5px;
+}
+
+.footer-content a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.footer-content a:hover {
+    color: #FFD700; /* Change the color on hover */
+}
+
+.footer-content address {
+    font-style: normal;
+}
+
+.attraction {
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    min-height: 300px;
+}
+
+.attraction h3 {
+    font-size: 24px;
+    margin-top: 10px;
+}
